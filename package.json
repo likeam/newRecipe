@@ -1,0 +1,29 @@
+{
+  "name": "newrecipe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/likeam/newRecipe.git"
+  },
+  "author": "Abdul Rehman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/likeam/newRecipe/issues"
+  },
+  "homepage": "https://github.com/likeam/newRecipe#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "parcel": "^2.5.0"
+  },
+  "dependencies": {
+    "core-js": "^3.22.7",
+    "fractional": "^1.0.0",
+    "regenerator-runtime": "^0.13.9"
+  }
+}
